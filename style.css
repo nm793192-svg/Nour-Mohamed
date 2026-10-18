@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    :root {
+    color-scheme: dark;
+    --blue: #1769d2;
+    --text: #f5f5f5;
+    --muted: #b8b8b8;
+}
+.browser {
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid #353535;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    background: #111;
+}
+
+    body {
+         background-color: #202020;
+        padding: 0 10px;
+        font-family: "Poppins" , Arial, Helvetica, sans-serif;
+    }
+
+    .logo {
+         width: 40px;
+         height: 40px;
+    }
+    .socials,
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    gap: 20px;
+}
+
+.socials a {
+    color: #a9b3c0;
+    font-size: 19px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.socials a:hover,
+.links a:hover {
+    color: #fff;
+}
+
+.links {
+    gap: 30px;
+}
+
+.links a {
+    color: #b8b8b8;
+    font-size: 17px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.links a.active {
+    color: #fff;
+}
+
+.logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    margin-left: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 50;
+    
+}
+.page {
+    min-height: calc(100vh - 80px);
+    padding: 25px 4.1% 70px;
+    background: linear-gradient(110deg, #111 0%, #141414 100%);
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 30;
+    align-items: center;
+}
+.hero-copy {
+   padding-bottom: 3px;
+}
+.hero-copy h1 {
+    margin-bottom: 30px;
+    color: #f4f4f4;
+    font-size: clamp(34px, 3.55vw, 56px);
+    line-height: 1.5;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+.hero-copy p {
+    max-width: 600px;
+    margin-bottom: 50px;
+    color: #b9c0ca;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+.cta{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    padding:15px 30px;
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 15px;
+    border: 1px solid #22589e;
+    border-radius: 4px;
+    
+    }
+.cta:hover {
+    background: #1769d2;;
+}
+.car-image {
+    width: 100%;
+    height: clamp(300px, 33vw, 505px);
+    border-radius: 10px;
+   
+  
+}
